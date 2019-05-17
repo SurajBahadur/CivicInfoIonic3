@@ -1,0 +1,56 @@
+<ion-header class="header" >
+  <ion-toolbar>
+      
+  <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-row>
+      <ion-col col-12>
+        <p class="title">CIVIC INFO</p>
+      </ion-col>
+    </ion-row>
+
+  </ion-toolbar>
+
+</ion-header>
+<ion-content padding>
+
+  
+  <ion-row>
+    <ion-col col-12>
+      <p class="title-city animated jackInTheBox">MUMBAI  CITY</p>
+    </ion-col>
+  </ion-row>
+
+  <div class="photo">
+    <ion-row >
+      <ion-col col-12 class="col-option">
+        <img src="./assets/imgs/camera.png" class="option animated tada" (click)="photoClicked()" />
+      </ion-col>
+    </ion-row>
+      <p class="option-title animated tada">Photo</p>
+  </div>
+ 
+
+  <div class="photo">
+    <ion-row >
+      <ion-col col-12 class="col-option">
+        <img src="./assets/imgs/video.png" animated fadeIn class="option animated tada" (click)="videoClicked()"/>
+      </ion-col>
+    </ion-row>
+      <p class="option-title animated tada">Video</p>
+  </div>
+
+
+  <div class="photo">
+    <ion-row >
+      <ion-col col-12 class="col-option">
+        <img src="./assets/imgs/gps.png" class="option animated tada"/>
+      </ion-col>
+    </ion-row>
+      <p class="option-title animated tada">Geolocation</p>
+  </div>
+
+
+
+</ion-content>

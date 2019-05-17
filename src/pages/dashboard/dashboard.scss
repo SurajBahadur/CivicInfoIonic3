@@ -1,0 +1,55 @@
+page-dashboard {
+    .toolbar-background-md,.toolbar-background-md {
+        border-color: black;
+        background: black;
+    }
+
+    .title{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .title-city{
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .content-md,.content-ios {
+        color: white;
+        background-color: white;
+  }
+    
+  ion-card {
+    position: relative;
+    text-align: center;
+    background-color: black;
+  }
+
+  .photo {
+    padding: 15px;
+    margin-top: 3px;
+  }
+
+  .option-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+  }
+
+  .option{
+    width: 100px;
+    text-align: center;
+    height: 100px;
+  }
+
+  .col-option{
+    text-align: center;
+  }
+
+}

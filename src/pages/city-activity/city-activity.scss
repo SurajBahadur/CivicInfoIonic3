@@ -1,0 +1,122 @@
+page-city-activity {
+
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff !important;
+        background-color: transparent !important;
+    }
+
+    .grid-list-image{
+        width: 50%;
+        float: left;
+        padding-bottom: 0;
+        padding:0px !important;
+        height: 47vw;
+        margin-top: 8px;
+        margin-bottom: -5px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+      .grid-list-imagee{
+        width: 50%;
+        float: left;
+        padding-bottom: 0;
+        padding:0px !important;
+        margin-top: 8px;
+        margin-bottom: -5px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+      .image-item{
+        position: relative;
+        display: inline-block;
+        padding:0px !important;
+        margin:0px !important;
+        // border:1px solid white;;
+      }
+
+      .imagecamera{
+        width: auto;
+        background-color: transparent;
+        height: 20vw;
+        margin-right: 8vw;
+        margin-top: 7vw;
+        margin-left: 9vw;
+        margin-bottom: 5vw;
+      }
+
+      
+      .imagetext{
+        color: red;
+        text-align: center;
+        margin-bottom: 5rem;
+        font-size: 1.8rem;
+    }
+
+    .grid-list-category{
+        width: 50%;
+        padding-bottom: 0;
+        padding:0px !important;
+    }
+
+    .grid-list{
+        width: 50%;
+        float: left;
+        padding-bottom: 0;
+        padding:0px !important;
+        margin-top: 0px;
+        margin-bottom: -5px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+      .div-cat{
+          margin-top: 10px !important;
+          position: relative;
+          border-color: red;
+      }
+
+      .test{
+          margin-top: 50px !important;
+          margin: 0px;
+          width: 100%;
+          background: #222;
+      }
+
+      .txt-choose-cat{
+          color: white;
+          font-weight: bold;
+      }
+
+      .txt-comment{
+          font-weight: bold !important;
+          font-size: 16px !important;
+          color: black !important;
+          white-space: pre-wrap;
+        }
+        
+        .txt-msg{
+            font-weight: bold !important;
+            font-size: 16px !important;
+            color: black !important;
+            white-space: pre-wrap !important;
+            overflow: initial !important;       
+        }
+
+        .btn-post{
+            background-color: black;
+        }
+
+        .selected-image{
+            height: 300px;
+        }
+        
+        .trans{
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            font-size: 24px;
+            color: red;
+        }
+}
